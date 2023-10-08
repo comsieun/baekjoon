@@ -1,3 +1,5 @@
+// 리모컨(실패)
+
 import java.util.Scanner;
 
 public class Main {
