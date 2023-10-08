@@ -7,7 +7,8 @@ public class Main {
 		Long min = sc.nextLong();
 		Long max = sc.nextLong();
 
-		Long result = max - min + 1;
+		int result = (int) (max - min) + 1;
+		
 		Long s = (long) (Math.sqrt(max));
 		for (Long j = min; j <= max; j++) {
 			if (j % 4 == 0 || j % 9 == 0 || j % 25 == 0 || j % 49 == 0 || j % 121 == 0 || j % 169 == 0 || j%289==0) {
